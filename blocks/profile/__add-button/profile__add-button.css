@@ -1,0 +1,36 @@
+.profile__add-button {
+  width: 100%;
+  max-width: 150px;
+  height: 50px;
+  background-color: transparent;
+  background-image: url(../../../images/add-button-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px 22px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  border: 2px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+  -webkit-transition: max-width ease 1s;
+  -o-transition: max-width ease 1s;
+  transition: max-width ease 1s;
+}
+
+.profile__add-button:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  background-image: url(../../../images/add-button-icon-gray.svg);
+}
+
+@media screen and (max-width: 1024px) {
+  .profile__add-button {
+    max-width: 100%;
+    margin-top: 36px;
+    background-size: 16px 16px;
+  }
+}

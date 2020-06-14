@@ -1,0 +1,30 @@
+.profile__user-profession {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 4px;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+  max-width: 295px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 425px) {
+  .profile__user-profession {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .profile__user-profession {
+    max-width: calc(100% - 20px);
+  }
+}

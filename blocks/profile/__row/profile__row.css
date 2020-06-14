@@ -1,0 +1,29 @@
+.profile__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .profile__row{
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .profile__row{
+    max-width: calc(100% - 20px);
+    padding-top: 18px;
+  }
+}

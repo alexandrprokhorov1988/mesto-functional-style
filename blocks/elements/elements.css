@@ -1,0 +1,15 @@
+.elements {
+  margin: 0 auto;
+  max-width: 882px;
+  width: calc(100% - 22.5%);
+  padding-top: 47px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  grid-column-gap: 18px;
+  grid-row-gap: 21px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}

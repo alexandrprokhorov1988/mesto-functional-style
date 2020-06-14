@@ -1,0 +1,9 @@
+.popup__image-title {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}

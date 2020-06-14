@@ -1,0 +1,28 @@
+.profile__user-name {
+  font-weight: 500;
+  font-size: 2.625rem;
+  line-height: 3.5rem;
+  color: #FFFFFF;
+  margin: 0;
+  padding-right: 17px;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+  max-width: 295px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__user-name {
+    font-size: 1.6875rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile__user-name {
+    padding-right: 10px;
+  }
+}

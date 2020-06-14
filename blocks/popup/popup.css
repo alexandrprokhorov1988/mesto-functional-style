@@ -1,0 +1,39 @@
+@import url(./__container/popup__container.css);
+@import url(./__container/_type/popup__container_type_form.css);
+@import url(./__container/_type/popup__container_type_img.css);
+@import url(./__close-icon/popup__close-icon.css);
+@import url(./__image/popup__image.css);
+@import url(./__image-title/popup__image-title.css);
+@import url(./_type/popup_type_form.css);
+@import url(./_type/popup_type_img.css);
+
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  visibility: hidden;
+  -webkit-transition: visibility .5s, opacity .5s;
+  -o-transition: visibility .5s, opacity .5s;
+  transition: visibility .5s, opacity .5s;
+  opacity: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}

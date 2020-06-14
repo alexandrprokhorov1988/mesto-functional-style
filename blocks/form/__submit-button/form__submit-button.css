@@ -1,0 +1,24 @@
+.form__submit-button {
+  margin-top: 48px;
+  width: 100%;
+  max-width: 358px;
+  height: 50px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  padding: 0;
+  border: none;
+  background: #000000;
+  border-radius: 2px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+}
+
+.form__submit-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
