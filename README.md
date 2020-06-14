@@ -11,7 +11,7 @@
 * [Ссылка на макет в Figma (спринт 6)](https://www.figma.com/file/XNaGNEZD5NEjeyJzAT4gMb/JavaScript.-Sprint-6?node-id=1124%3A73)
 
 #### Инструкция
-* [Ссылка на проект](https://alexandrprokhorov1988.github.io/mesto/)
+* [Ссылка на проект](https://alexandrprokhorov1988.github.io/mesto-functional-style/)
 
 
 #### Технологии
